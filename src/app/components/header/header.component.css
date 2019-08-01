@@ -1,0 +1,21 @@
+.navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-right: 3%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 70px;
+}
+.burger-menu {
+  display: flex;
+  justify-content: right;
+}
+.burger-menu img {
+  width: 60px;
+}

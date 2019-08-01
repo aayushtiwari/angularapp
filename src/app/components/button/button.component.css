@@ -1,0 +1,24 @@
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 25px;
+}
+.button {
+  width: 80%;
+  display: grid;
+  justify-content: flex-end;
+}
+.button button {
+  background: #9b9b9b;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  border-radius: 35px;
+  padding: 25px;
+  border: 1px solid transparent;
+}
+.button p {
+  font-size: 1rem;
+  margin: 0;
+}

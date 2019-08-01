@@ -1,0 +1,23 @@
+.service-list {
+  list-style: none;
+}
+.service-list li {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  border-bottom: 1px solid rgb(155, 155, 155, 65%);
+}
+.service-list p,
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+}
+.service-charges {
+  display: grid;
+  justify-content: center;
+}
+.service-red {
+  color: #d0021b;
+  text-align: end;
+}

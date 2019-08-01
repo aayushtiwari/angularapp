@@ -1,0 +1,22 @@
+.service-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.service {
+  width: 70%;
+  display: grid;
+  box-shadow: 0px 2px 15px #bec2ce;
+  border-radius: 20px;
+  padding: 5%;
+}
+.service h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 1.1rem;
+}
+.service-container hr {
+  margin-top: 15px;
+  color: rgba(155, 155, 155, 65%);
+  width: 70%;
+}

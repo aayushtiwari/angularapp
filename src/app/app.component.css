@@ -1,0 +1,32 @@
+.content {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  height: 100vh;
+}
+.left-section {
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.24), 0 4px 4px 0 rgba(0, 0, 0, 0.12);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  overflow: hidden;
+}
+.right-section {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  overflow: auto;
+}
+.app-close-flex,
+.app-question-flex,
+.app-services-flex,
+.app-button-flex {
+  flex-basis: 100%;
+}
+.app-close-flex {
+  height: 20vh;
+}
+.app-question-flex {
+  height: 30vh;
+}
+.app-button-flex {
+  height: 15vh;
+}
