@@ -50,6 +50,8 @@
 
 .app-question-flex {
   height: 30vh;
+  display: flex;
+  align-content: center;
 }
 .app-button-flex {
   position: fixed;

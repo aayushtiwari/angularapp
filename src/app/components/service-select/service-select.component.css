@@ -1,0 +1,32 @@
+.service-select-data img {
+  width: 150px;
+}
+.service-select-container {
+  width: 44%;
+  border-radius: 20px;
+  box-shadow: 0px 2px 15px #bec2ce;
+  display: grid;
+  padding: 3%;
+  padding-bottom: 1%;
+}
+.service-select-header {
+  font-family: "ProximaSemiBold";
+  display: grid;
+  justify-content: center;
+}
+.service-select-header h3 {
+  font-size: 1.1rem;
+}
+.service-select-data p {
+  font-size: 1rem;
+  font-family: "ProximaSemiBold";
+}
+/* mediaq */
+@media all and (max-width: 1690px) {
+  .question-component {
+    flex-basis: 70%;
+  }
+  .service-select-container {
+    width: 64%;
+  }
+}

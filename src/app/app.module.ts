@@ -10,6 +10,9 @@ import { ServicesComponent } from "./components/services/services.component";
 import { ButtonComponent } from "./components/button/button.component";
 import { ServiceElementComponent } from "./components/service-element/service-element.component";
 import { SearchResultsComponent } from "./components/search-results/search-results.component";
+import { ServiceSelectComponent } from './components/service-select/service-select.component';
+import { SeachInputComponent } from './components/seach-input/seach-input.component';
+import { ServicePricingComponent } from './components/service-pricing/service-pricing.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { SearchResultsComponent } from "./components/search-results/search-resul
     ServicesComponent,
     ButtonComponent,
     ServiceElementComponent,
-    SearchResultsComponent
+    SearchResultsComponent,
+    ServiceSelectComponent,
+    SeachInputComponent,
+    ServicePricingComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
