@@ -5,7 +5,7 @@
   flex-basis: 100%;
 }
 .question-box {
-  flex-basis: 70%;
+  flex-basis: 40%;
   display: grid;
   grid-row-gap: 50px;
   border-radius: 20px;
@@ -19,7 +19,8 @@
 .question-label {
   display: grid;
   justify-content: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "ProximaSemiBold";
+  font-weight: bolder;
 }
 .question-input {
   align-items: center;
@@ -38,5 +39,19 @@
   background: black;
   color: white;
   border: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: "ProximaSemiBold";
+  font-weight: bolder;
+}
+.question-input input::placeholder {
+  font-weight: bolder;
+  opacity: 1;
+}
+/* mediaq */
+@media all and (max-width: 1690px) {
+  .question-box {
+    flex-basis: 60%;
+    padding: 5%;
+  }
+}
+@media all and (max-width: 1000px) {
 }

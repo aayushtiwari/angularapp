@@ -2,21 +2,28 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 15vh;
 }
+
 .service {
-  width: 70%;
+  width: 40%;
   display: grid;
   box-shadow: 0px 2px 15px #bec2ce;
   border-radius: 20px;
   padding: 5%;
-}
-.service h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: normal;
-  font-size: 1.1rem;
+  padding-bottom: 1%;
 }
 .service-container hr {
   margin-top: 15px;
   color: rgba(155, 155, 155, 65%);
-  width: 70%;
+  width: 50%;
+}
+/* mediaq */
+@media all and (max-width: 1690px) {
+  .service {
+    width: 60%;
+    padding: 5%;
+  }
+}
+@media all and (max-width: 1000px) {
 }

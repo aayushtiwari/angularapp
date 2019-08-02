@@ -1,21 +1,21 @@
 .vehicle {
   height: 100%;
   display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-content: center;
   align-content: center;
 }
 .vehicle-box {
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  width: 80%;
-  margin-left: 10%;
 }
-.vehicle-box label {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
-}
-.vehicle-box input {
-  border: none;
+
+.vehicle-box h1 {
+  font-size: 2rem;
+  font-family: "ProximaBold";
   border-bottom: 1px solid #979797;
-  margin-top: 10px;
-  padding: 10px;
+  padding-bottom: 10px;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.87);
+  opacity: 1;
 }

@@ -1,5 +1,6 @@
 .service-list {
   list-style: none;
+  padding-left: 0;
 }
 .service-list li {
   display: grid;
@@ -7,17 +8,34 @@
   align-items: center;
   border-bottom: 1px solid rgb(155, 155, 155, 65%);
 }
-.service-list p,
+.service-list-container h1 {
+  font-family: "ProximaSemiBold";
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.service-list h3,
 h4,
 h5 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: normal;
+  margin: 5px;
 }
 .service-charges {
   display: grid;
   justify-content: center;
 }
 .service-red {
-  color: #d0021b;
-  text-align: end;
+  color: #e40000;
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: ProximaSemiBold;
 }
+.service-list h3 {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  font-family: ProximaSemiBold;
+}
+.service-list h5 {
+  font-family: ProximaSemiBold;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+/* ff0063 */

@@ -14,7 +14,7 @@
 }
 .burger-menu {
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
 }
 .burger-menu img {
   width: 60px;

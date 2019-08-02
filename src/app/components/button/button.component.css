@@ -2,7 +2,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 25px;
 }
 .button {
   width: 80%;
@@ -12,13 +11,17 @@
 .button button {
   background: #9b9b9b;
   color: white;
-  font-family: "Montserrat", sans-serif;
+  font-family: Proxima Nova;
   font-size: 1rem;
   border-radius: 35px;
-  padding: 25px;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
   border: 1px solid transparent;
+  cursor: pointer;
 }
 .button p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin: 0;
+  font-weight: 900;
 }
