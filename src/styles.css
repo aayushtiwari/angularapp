@@ -354,5 +354,5 @@ template {
 .select-vehicle {
   width: 100%;
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 30px;
 }
