@@ -21,6 +21,11 @@ import { SelectServiceComponent } from './pages/select-service/select-service.co
 import { routes } from './routes';
 import { ServiceFormComponent } from './pages/service-form/service-form.component';
 import { ReviewOrderComponent } from './pages/review-order/review-order.component';
+import { SelectDateComponent } from './questionBox/select-date/select-date.component';
+import { MechanicFormComponent } from './servicePart/mechanic-form/mechanic-form.component';
+import { ScheduleComponent } from './servicePart/schedule/schedule.component';
+import { TechnicianComponent } from './servicePart/technician/technician.component';
+import { OrderComponent } from './servicePart/order/order.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +43,12 @@ import { ReviewOrderComponent } from './pages/review-order/review-order.componen
     SelectVehicleComponent,
     SelectServiceComponent,
     ServiceFormComponent,
-    ReviewOrderComponent
+    ReviewOrderComponent,
+    SelectDateComponent,
+    MechanicFormComponent,
+    ScheduleComponent,
+    TechnicianComponent,
+    OrderComponent
   ],
   imports: [BrowserModule, RouterModule.forRoot(routes), AppRoutingModule],
   providers: [],
