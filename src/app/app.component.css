@@ -36,8 +36,7 @@
 }
 .right-section {
   position: relative;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   overflow: auto;
   padding-top: 10vh;
 }
@@ -67,6 +66,9 @@
 @media all and (max-width: 1690px) {
 }
 @media all and (max-width: 1000px) {
+  .select-vehicle {
+    width: 1000px;
+  }
   .content {
     display: flex;
     flex-wrap: wrap;
@@ -86,6 +88,7 @@
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
+    padding-top: 5vh;
   }
   .app-services-flex {
     margin-bottom: 1%;

@@ -350,3 +350,9 @@ template {
 [hidden] {
   display: none;
 }
+
+.select-vehicle {
+  width: 100%;
+  display: grid;
+  grid-gap: 20px;
+}

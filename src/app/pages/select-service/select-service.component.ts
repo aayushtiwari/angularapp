@@ -1,16 +1,16 @@
-import { Component, OnInit, } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 // @Directive({ QuestionBoxComponent})
 @Component({
-  selector: 'app-select-service',
-  templateUrl: './select-service.component.html',
-  styleUrls: ['./select-service.component.css'],
+  selector: "app-select-service",
+  templateUrl: "./select-service.component.html",
+  host: {
+    class: "select-vehicle"
+  },
+  styleUrls: ["./select-service.component.css"]
 })
 export class SelectServiceComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

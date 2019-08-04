@@ -1,0 +1,11 @@
+.app-question-flex {
+  width: 100;
+}
+.question-component {
+  width: 50%;
+}
+@media all and (max-width: 1690px) {
+  .question-component {
+    flex-basis: 70%;
+  }
+}

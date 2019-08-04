@@ -4,9 +4,7 @@
   justify-content: center;
   flex-basis: 100%;
 }
-.question-component {
-  flex-basis: 50%;
-}
+
 .service-select-container {
   flex-basis: 100%;
   display: flex;

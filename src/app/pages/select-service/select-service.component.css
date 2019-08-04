@@ -1,0 +1,9 @@
+.service-select-container {
+  width: 50%;
+}
+/* mediaq */
+@media all and (max-width: 1690px) {
+  .service-select-container {
+    width: 70%;
+  }
+}
