@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./button.component.css']
 })
 export class ButtonComponent implements OnInit {
-
+  buttonText: string;
+  link: string;
   constructor() { }
 
   ngOnInit() {
+    this.buttonText = 'Continue';
+    this.link = 'review-order';
   }
+  // this.router.url === '/login'
+
 
 }
