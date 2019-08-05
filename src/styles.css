@@ -356,3 +356,6 @@ template {
   display: grid;
   grid-gap: 30px;
 }
+router-outlet {
+  height: 0;
+}

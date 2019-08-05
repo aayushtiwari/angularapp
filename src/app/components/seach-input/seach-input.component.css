@@ -37,6 +37,9 @@
   font-family: "ProximaSemiBold";
   font-weight: bolder;
 }
+.question-input input:focus {
+  outline: none;
+}
 .question-input input::placeholder {
   font-weight: bolder;
   opacity: 1;

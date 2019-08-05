@@ -1,15 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-review-order',
-  templateUrl: './review-order.component.html',
-  styleUrls: ['./review-order.component.css']
+  selector: "app-review-order",
+  templateUrl: "./review-order.component.html",
+  styleUrls: ["./review-order.component.css"],
+  host: {
+    class: "select-vehicle"
+  }
 })
 export class ReviewOrderComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

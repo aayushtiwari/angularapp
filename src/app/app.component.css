@@ -36,7 +36,6 @@
 }
 .right-section {
   position: relative;
-  display: grid;
   overflow: auto;
   padding-top: 10vh;
 }
