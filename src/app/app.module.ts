@@ -1,5 +1,6 @@
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
+import { FormsModule } from '@angular/forms';
 
 import { RouterModule } from '@angular/router';
 
@@ -58,7 +59,7 @@ import { VehicleResultComponent } from './pages/vehicle-result/vehicle-result.co
     CompleteOrderComponent,
     VehicleResultComponent
   ],
-  imports: [BrowserModule, RouterModule.forRoot(routes), AppRoutingModule],
+  imports: [BrowserModule, RouterModule.forRoot(routes), AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent]
 })
