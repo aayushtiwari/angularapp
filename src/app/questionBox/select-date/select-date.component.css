@@ -1,0 +1,39 @@
+.select-date {
+  box-shadow: 0px 2px 15px #bec2ce;
+  border-radius: 20px;
+  padding: 5%;
+  padding-bottom: 10%;
+}
+.select-heading h3 {
+  font-size: 1.1rem;
+  font-family: "ProximaSemiBold";
+  text-align: center;
+  margin-bottom: 10%;
+}
+.select-offers {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  justify-content: space-between;
+  font-size: 1rem;
+  font-family: "ProximaSemiBold";
+}
+.select-offers button {
+  border-radius: 14px;
+  background-color: white;
+  border: 0;
+}
+.select-offers .best {
+  background-color: #2fb545;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.select-offers .budget {
+  background-color: #ffd52d;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.select-offers .expensive {
+  background-color: #ff3b30;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
