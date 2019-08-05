@@ -26,6 +26,10 @@ import { MechanicFormComponent } from './servicePart/mechanic-form/mechanic-form
 import { ScheduleComponent } from './servicePart/schedule/schedule.component';
 import { TechnicianComponent } from './servicePart/technician/technician.component';
 import { OrderComponent } from './servicePart/order/order.component';
+import { ServiceAddressComponent } from './pages/service-address/service-address.component';
+import { ServiceDateComponent } from './pages/service-date/service-date.component';
+import { CompleteOrderComponent } from './pages/complete-order/complete-order.component';
+import { VehicleResultComponent } from './pages/vehicle-result/vehicle-result.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +52,11 @@ import { OrderComponent } from './servicePart/order/order.component';
     MechanicFormComponent,
     ScheduleComponent,
     TechnicianComponent,
-    OrderComponent
+    OrderComponent,
+    ServiceAddressComponent,
+    ServiceDateComponent,
+    CompleteOrderComponent,
+    VehicleResultComponent
   ],
   imports: [BrowserModule, RouterModule.forRoot(routes), AppRoutingModule],
   providers: [],
