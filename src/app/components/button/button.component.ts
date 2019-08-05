@@ -15,12 +15,14 @@ export class ButtonComponent implements OnInit {
     this.buttonText = 'Continue';
 
     this.router.events.subscribe((event) => {
-      if (event.url === '/review-order' && localStorage.technician && localStorage.technician.length) {
+      if (event.url === '/review-order' 
+      // && localStorage.technician && localStorage.technician.length
+      ) {
         this.buttonText = 'Book';
       }
-      if (event.url === '/review-order' && !localStorage.technician && !localStorage.technician.length) {
-        this.buttonText = 'Continue';
-      }
+      // if (event.url === '/review-order' && !localStorage.technician && !localStorage.technician.length) {
+      //   this.buttonText = 'Continue';
+      // }
       if (event.url === '/') {
         this.buttonText = 'Continue';
       }
@@ -34,20 +36,26 @@ export class ButtonComponent implements OnInit {
   }
 
   onClick() {
-    if (this.router.url === '/' && localStorage.vehicle && localStorage.vehicle.length) {
+    if (this.router.url === '/' 
+    // && localStorage.vehicle && localStorage.vehicle.length 
+    ) {
       this.router.navigateByUrl('/select-service');
     }
-    if (this.router.url === '/select-service' && localStorage.service && localStorage.service.length ) {
+    if (this.router.url === '/select-service' 
+    // && localStorage.service && localStorage.service.length
+     ) {
       this.router.navigateByUrl('/service-form');
     }
-    if (this.router.url === '/service-form' && localStorage.serviceAdd && localStorage.serviceDate &&  localStorage.serviceAdd.length && localStorage.serviceDate.length) {
+    if (this.router.url === '/service-form' 
+    // && localStorage.serviceAdd && localStorage.serviceDate &&  localStorage.serviceAdd.length && localStorage.serviceDate.length
+    ) {
       this.router.navigateByUrl('/review-order');
     }
     if (this.router.url === '/review-order') {
       console.log('Confirm Booking');
     }
-    else{
-      alert('Please Select the Service First');
-    }
+    // else{
+    //   alert('Please Select the Service First');
+    // }
   }
 }

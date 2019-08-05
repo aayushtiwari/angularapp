@@ -1,0 +1,18 @@
+.select-date-class{
+    flex-basis: 60%;
+    padding: 5%;
+}
+
+.label-class{
+    display: grid;
+
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-family: "ProximaSemiBold";
+    font-weight: bolder;
+}
+
+label{
+    font-family: "ProximaSemiBold";
+    font-weight: bolder;
+}
