@@ -57,7 +57,7 @@ export class ButtonComponent implements OnInit {
      ) {
       this.router.navigateByUrl('/service-add');
     }
-    if (this.router.url === '/search-add') {
+    if (this.router.url === '/service-add') {
       this.router.navigateByUrl('/service-form');
     }
     if (this.router.url === '/service-form'
