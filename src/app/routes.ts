@@ -4,7 +4,7 @@ import { SelectServiceComponent } from "./pages/select-service/select-service.co
 import { ServiceFormComponent } from "./pages/service-form/service-form.component";
 import { ReviewOrderComponent } from "./pages/review-order/review-order.component";
 import { ServiceAddressComponent } from "./pages/service-address/service-address.component";
-import { SelectDateComponent } from "./questionBox/select-date/select-date.component";
+import { ServiceDateComponent } from "./pages/service-date/service-date.component";
 import { CompleteOrderComponent } from "./pages/complete-order/complete-order.component";
 import { VehicleResultComponent } from "./pages/vehicle-result/vehicle-result.component";
 
@@ -14,7 +14,7 @@ export const routes: Routes = [
   { path: "select-service", component: SelectServiceComponent },
   { path: "service-add", component: ServiceAddressComponent },
   { path: "service-form", component: ServiceFormComponent },
-  { path: "select-date", component: SelectDateComponent },
+  { path: "select-date", component: ServiceDateComponent },
   { path: "review-order", component: ReviewOrderComponent },
   { path: "complete-order", component: CompleteOrderComponent }
 ];

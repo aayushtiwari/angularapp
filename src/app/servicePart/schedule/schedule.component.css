@@ -1,0 +1,44 @@
+.schedule-heading h1 {
+  font-size: 2rem;
+  font-family: "ProximaSemiBold";
+  margin-top: 0;
+}
+.schedule-button {
+  display: flex;
+  justify-content: center;
+}
+.schedule-button button {
+  border: 0;
+  font-size: 1.1rem;
+  font-family: "ProximaRegular";
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  box-shadow: 0px 0px 2px #999999;
+  color: black;
+}
+.schedule-selector h2 {
+  font-size: 1.5rem;
+  font-family: "ProximaRegular";
+  background-color: transparent;
+  color: #8e8e93;
+}
+.schedule-selector ul {
+  padding-left: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-template-rows: 1fr;
+  row-gap: 15px;
+  justify-content: space-between;
+}
+.schedule-selector li {
+  text-align: center;
+  padding: 5px;
+  font-size: 0.8rem;
+  font-family: "ProximaRegular";
+  box-shadow: 0px 0px 2px #999999;
+  border-radius: 8px;
+}

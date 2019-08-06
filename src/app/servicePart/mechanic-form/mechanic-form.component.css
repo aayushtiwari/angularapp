@@ -1,25 +1,68 @@
+.mechanic-form div {
+  display: grid;
+}
 .mechanic-form {
   display: grid;
-  justify-content: center;
-  grid-gap: 20px;
-  grid-template-rows: repeat(3, 40px);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 25px;
+  padding-bottom: 5%;
 }
-.mechanic-form div {
-  display: flex;
-  width: 100%;
+.mechanic-select {
+  position: relative;
+}
+.arrow {
+  position: absolute;
+  width: 15px;
+  right: 25px;
+  top: 17px;
+  z-index: 1;
 }
 
-.mechanic-form select,
-input,
-button {
-  width: 100%;
-  height: 100%;
+.mechanic-form select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  /* border: 1px solid #979797; */
+  font-size: 1.1rem;
   font-family: "ProximaBold";
-  font-size: 1.2rem;
-  text-align: start;
-  padding: 5px;
-  border: 1px solid #979797;
+  background-color: transparent;
   border-radius: 8px;
-  background: white;
+  z-index: 2;
   color: black;
+  padding-left: 5%;
+  box-shadow: 0px 0px 2px #999999;
+}
+.mechanic-input input {
+  border: 0;
+  font-size: 1.1rem;
+  font-family: "ProximaBold";
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 3%;
+  padding-left: 5%;
+  box-shadow: 0px 0px 2px #999999;
+  color: black;
+}
+.mechanic-input input::placeholder {
+  opacity: 1;
+  color: black;
+}
+.mechanic-button {
+  position: relative;
+}
+.mechanic-button a {
+  text-decoration: none;
+  background: transparent;
+  border: 0;
+  color: black;
+  font-size: 1.1rem;
+  font-family: "ProximaBold";
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 3%;
+  padding-left: 5%;
+  box-shadow: 0px 0px 2px #999999;
+  display: flex;
+  z-index: 2;
 }

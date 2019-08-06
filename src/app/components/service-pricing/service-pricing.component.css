@@ -1,0 +1,54 @@
+.service-pricing-header h1 {
+  margin-top: 0;
+  font-size: 2rem;
+  font-family: "ProximaSemiBold";
+  margin-bottom: 0;
+}
+
+.service-pricing-list {
+  padding-left: 0;
+  list-style-type: none;
+}
+.service-pricing-list li {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  border-bottom: 1.2px solid rgba(155, 155, 155, 65%);
+  align-content: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.service-pricing-list h3 {
+  font-family: "ProximaRegular";
+  font-size: 1.5rem;
+  padding-left: 15px;
+  margin: 0;
+}
+.service-pricing-list p {
+  font-family: "ProximaBold";
+  font-size: 1.5rem;
+  padding-left: 15px;
+  color: #e40000;
+  margin: 0;
+}
+.service-pricing-list input[type="checkbox"] {
+  opacity: 0;
+  z-index: 2;
+}
+.service-pricing-list h3::before {
+  z-index: 1;
+  left: 0;
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  color: white;
+  text-align: center;
+  border: 2px solid #979797;
+  border-radius: 50%;
+}
+.service-pricing-list input[type="checkbox"]:checked + h3:before {
+  background-color: #ff3366;
+}
