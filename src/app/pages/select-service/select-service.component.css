@@ -1,9 +1,19 @@
 .service-select-container {
   width: 50%;
 }
+.app-question-flex {
+  width: 100%;
+}
+.question-component {
+  width: 50%;
+}
+
 /* mediaq */
 @media all and (max-width: 1690px) {
   .service-select-container {
     width: 70%;
+  }
+  .question-component {
+    flex-basis: 70%;
   }
 }
