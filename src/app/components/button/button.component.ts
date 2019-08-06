@@ -70,6 +70,7 @@ export class ButtonComponent implements OnInit {
     }
     if (this.router.url === '/review-order') {
       console.log('Confirm Booking');
+      this.router.navigateByUrl('/complete-order');
     }
     // else{
     //   alert('Please Select the Service First');

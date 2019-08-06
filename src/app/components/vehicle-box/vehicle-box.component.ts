@@ -22,6 +22,7 @@ export class VehicleBoxComponent implements OnInit {
         // && localStorage.technician && localStorage.technician.length
         ) {
           this.details = 'Review your order';
+          this.nextDetails = null;
         }
         // if (event.url === '/review-order' && !localStorage.technician && !localStorage.technician.length) {
         //   this.buttonText = 'Continue';
@@ -32,12 +33,15 @@ export class VehicleBoxComponent implements OnInit {
         }
         if (event.url === '/select-service') {
           this.details = 'Select a service';
+          this.nextDetails = null;
         }
         if (event.url === '/service-form') {
           this.details = 'Enter a service';
+          this.nextDetails = null;
         }
         if (event.url === '/complete-order') {
           this.details = 'Complete your';
+          this.nextDetails = null;
         }
         if (event.url === '/service-add') {
           this.details = 'Enter a service';
@@ -45,6 +49,7 @@ export class VehicleBoxComponent implements OnInit {
         }
         if (event.url === '/select-date') {
           this.details = 'Enter a service';
+          this.nextDetails = null;
         }
         if (event.url === '/search-result') {
           this.details = 'Select your vehicle';
