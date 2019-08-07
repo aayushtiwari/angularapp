@@ -31,6 +31,7 @@ import { ServiceAddressComponent } from './pages/service-address/service-address
 import { ServiceDateComponent } from './pages/service-date/service-date.component';
 import { CompleteOrderComponent } from './pages/complete-order/complete-order.component';
 import { VehicleResultComponent } from './pages/vehicle-result/vehicle-result.component';
+import { FilterVehiclePipe } from './filter-vehicle.pipe';
 
 @NgModule({
   declarations: [
@@ -57,7 +58,8 @@ import { VehicleResultComponent } from './pages/vehicle-result/vehicle-result.co
     ServiceAddressComponent,
     ServiceDateComponent,
     CompleteOrderComponent,
-    VehicleResultComponent
+    VehicleResultComponent,
+    FilterVehiclePipe
   ],
   imports: [BrowserModule, RouterModule.forRoot(routes), AppRoutingModule, FormsModule],
   providers: [],

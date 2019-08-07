@@ -3,7 +3,7 @@
     <h1>Search Results</h1>
   </div>
   <ul class="search-result">
-    <li>
+    <!-- <li>
       <input type="checkbox" />
       <p>2007 jeep Wrangler</p>
     </li>
@@ -30,6 +30,10 @@
     <li>
       <input type="checkbox" />
       <p>2007 jeep Wrangler</p>
+    </li> -->
+    <li *ngFor="let jeep of jeeps | filterVehicle:'id,name':localValue">
+      <input type="checkbox" >
+      <p>{{jeep.name}}</p>
     </li>
   </ul>
 </div>

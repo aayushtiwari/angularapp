@@ -3,60 +3,18 @@
     <h1>Services</h1>
   </div>
   <ul class="service-list">
-    <li>
-      <div class="service-name">
-        <h3>
-          Service name
-        </h3>
-      </div>
-      <div class="service-charges">
-        <h4 class="service-red">$TBD</h4>
-        <h5 class="service-cost">Average $30-40</h5>
-      </div>
-    </li>
-    <li>
-      <div class="service-name">
-        <h3>
-          Service name
-        </h3>
-      </div>
-      <div class="service-charges">
-        <h4 class="service-red">$TBD</h4>
-        <h5 class="service-cost">Average $30-40</h5>
-      </div>
-    </li>
-    <li>
-      <div class="service-name">
-        <h3>
-          Service name
-        </h3>
-      </div>
-      <div class="service-charges">
-        <h4 class="service-red">$TBD</h4>
-        <h5 class="service-cost">Average $30-40</h5>
-      </div>
-    </li>
-    <li>
-      <div class="service-name">
-        <h3>
-          Service name
-        </h3>
-      </div>
-      <div class="service-charges">
-        <h4 class="service-red">$TBD</h4>
-        <h5 class="service-cost">Average $30-40</h5>
-      </div>
-    </li>
-    <li>
-      <div class="service-name">
-        <h3>
-          Service name
-        </h3>
-      </div>
-      <div class="service-charges">
-        <h4 class="service-red">$TBD</h4>
-        <h5 class="service-cost">Average $30-40</h5>
-      </div>
-    </li>
+    <li *ngFor="let service of services">
+      <!-- <a routerLink="/search-result"> -->
+        <div class="service-name">
+          <h3>
+            {{service.serviceName}}
+          </h3>
+        </div>
+        <div class="service-charges">
+          <h4 class="service-red">{{service.serviceRed}}</h4>
+          <h5 class="service-cost">{{service.serviceCost}}</h5>
+        </div>
+      <!-- </a> -->
+    </li>      
   </ul>
 </div>

@@ -4,6 +4,6 @@
   </div>
   <div class="question-input">
     <img src="assets/images/searchIcon.svg" alt="" />
-    <input type="text" placeholder="Year, Make and Model" />
+    <input type="text" placeholder="Year, Make and Model" [(ngModel)]='inputVal' (ngModelChange)="eventHandler($event)"/>
   </div>
 </div>
