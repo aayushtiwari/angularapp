@@ -17,6 +17,7 @@
   padding-top: 20px;
   padding-bottom: 10px;
   position: relative;
+  grid-gap: 10px;
 }
 .service-pricing-list h3 {
   font-family: "ProximaRegular";
@@ -34,6 +35,9 @@
 .service-pricing-list input[type="checkbox"] {
   opacity: 0;
   z-index: 2;
+  height: 100%;
+  width: 20px;
+  margin-left: 3px;
 }
 .service-pricing-list h3::before {
   z-index: 1;
@@ -41,8 +45,8 @@
   position: absolute;
   content: "";
   display: inline-block;
-  width: 18px;
-  height: 18px;
+  width: 22px;
+  height: 22px;
   vertical-align: middle;
   color: white;
   text-align: center;

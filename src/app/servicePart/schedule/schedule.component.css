@@ -2,10 +2,14 @@
   font-size: 2rem;
   font-family: "ProximaSemiBold";
   margin-top: 0;
+  text-align: center;
 }
 .schedule-button {
   display: flex;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr;
   justify-content: center;
+  width: 100%;
 }
 .schedule-button button {
   border: 0;
@@ -16,8 +20,9 @@
   padding: 2%;
   padding-left: 10%;
   padding-right: 10%;
-  box-shadow: 0px 0px 2px #999999;
+  box-shadow: 0px 0px 3px #999999;
   color: black;
+  display: grid;
 }
 .schedule-selector h2 {
   font-size: 1.5rem;
@@ -31,14 +36,16 @@
   display: grid;
   grid-template-columns: repeat(3, 30%);
   grid-template-rows: 1fr;
-  row-gap: 15px;
+  row-gap: 18px;
   justify-content: space-between;
 }
 .schedule-selector li {
   text-align: center;
-  padding: 5px;
+  padding: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
   font-size: 0.8rem;
   font-family: "ProximaRegular";
-  box-shadow: 0px 0px 2px #999999;
+  box-shadow: 0px 0px 4px #999999;
   border-radius: 8px;
 }

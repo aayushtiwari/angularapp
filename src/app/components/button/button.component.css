@@ -4,24 +4,24 @@
   justify-content: center;
 }
 .button {
-  width: 80%;
   display: grid;
   justify-content: flex-end;
 }
 .button button {
   background: #9b9b9b;
   color: white;
-  font-family: Proxima Nova;
-  font-size: 1rem;
+  font-family: "ProximaSemiBold";
   border-radius: 35px;
   padding: 10px;
   padding-left: 40px;
   padding-right: 40px;
   border: 1px solid transparent;
   cursor: pointer;
+  display: flex;
 }
 .button p {
   font-size: 1.1rem;
   margin: 0;
   font-weight: 900;
+  width: 100%;
 }

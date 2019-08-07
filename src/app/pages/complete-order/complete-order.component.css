@@ -1,0 +1,29 @@
+.service-select-container {
+  box-shadow: 0px 2px 15px #bec2ce;
+  border-radius: 20px;
+  padding: 5%;
+  padding-bottom: 2%;
+  padding-top: 1%;
+  width: 40%;
+}
+.order-header {
+  display: flex;
+  justify-content: center;
+}
+.order-header h1 {
+  font-family: "ProximaSemiBold";
+  font-size: 2rem;
+}
+.complete-img {
+  display: flex;
+  justify-content: center;
+}
+.complete-img img {
+  width: 60%;
+}
+/* mediaq */
+@media all and (max-width: 1690px) {
+  .service-select-container {
+    width: 60%;
+  }
+}

@@ -1,21 +1,33 @@
-<form action="">
-    <div>
-        <label for="">Service</label>
-        <select name="" id="">
-            <option value="">I need a oil change</option>
-            <option value="">I need a mechanic</option>
-            <option value="">I need a refuel</option>
-        </select>
-    </div>
-    <div>
-        <label for="">Service address</label>
-        <input type="text" name="Service address" placeholder="Service address" [(ngModel)]="address">
-    </div>
-    <div>
-        <label for="">Date and time</label>
-        <input type="text" name="Date and time" placeholder="Select date" [(ngModel)]="date">
-    </div>
-    <div>
-        <label for="">Payment method</label>
-    </div>
-</form>
+<div class="order-completed">
+  <div class="order-header">
+    <h2>Complete your order</h2>
+  </div>
+  <div class="order-option">
+    <label for="select">Service</label>
+    <select name="" id="select">
+      <option value="">
+        Oil change
+      </option>
+      <option value="">
+        mechanic
+      </option>
+      <option value="">
+        kitchen work
+      </option>
+    </select>
+    <img class="arrow" src="assets/images/arrow.png" alt="" />
+  </div>
+  <div class="order-option">
+    <label for="">Service address</label>
+    <h3>10122 Wilnor</h3>
+  </div>
+  <div class="order-option">
+    <label for="">Date and time</label>
+    <button>12/27/2019 at 9:00 AM</button>
+    <img class="arrow" src="assets/images/arrow.png" alt="" />
+  </div>
+  <div class="order-option">
+    <label for="">Payment method</label>
+    <h3></h3>
+  </div>
+</div>

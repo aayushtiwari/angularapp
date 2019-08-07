@@ -1,15 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-complete-order',
-  templateUrl: './complete-order.component.html',
-  styleUrls: ['./complete-order.component.css']
+  selector: "app-complete-order",
+  templateUrl: "./complete-order.component.html",
+  styleUrls: ["./complete-order.component.css"],
+  host: {
+    class: "select-vehicle"
+  }
 })
 export class CompleteOrderComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

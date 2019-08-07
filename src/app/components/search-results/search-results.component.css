@@ -12,7 +12,7 @@
   position: relative;
   display: grid;
   grid-template-columns: auto 1fr;
-  grid-gap: 10px;
+  grid-gap: 25px;
   border-bottom: 1px solid rgba(155, 155, 155, 65%);
 }
 .search-result li p {
@@ -21,8 +21,13 @@
   margin-bottom: 10px;
 }
 .search-result input[type="checkbox"] {
+  margin-top: 6px;
+  margin-left: 1px;
   opacity: 0;
   z-index: 2;
+  width: 22px;
+  height: 100%;
+  vertical-align: middle;
 }
 .search-result p::before {
   z-index: 1;
@@ -30,14 +35,14 @@
   position: absolute;
   content: "";
   display: inline-block;
-  width: 18px;
-  height: 18px;
+  width: 22px;
+  height: 22px;
   vertical-align: middle;
   color: white;
   text-align: center;
   border: 2px solid #979797;
   border-radius: 50%;
 }
-.search-result input[type="checkbox"]:checked + p:before {
+.search-result input[type="checkbox"]:checked + p::before {
   background-color: #ff3366;
 }

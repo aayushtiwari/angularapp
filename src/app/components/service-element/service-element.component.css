@@ -5,18 +5,23 @@
 .service-list li {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
+  align-items: end;
   border-bottom: 1px solid rgb(155, 155, 155, 65%);
+  padding-top: 15px;
 }
 .service-list-container h1 {
   font-family: "ProximaSemiBold";
   font-size: 2rem;
   font-weight: bolder;
+  margin-bottom: 0px;
 }
 .service-list h3,
 h4,
 h5 {
   margin: 5px;
+}
+.service-list h3 {
+  margin-bottom: 5px;
 }
 .service-charges {
   display: grid;
