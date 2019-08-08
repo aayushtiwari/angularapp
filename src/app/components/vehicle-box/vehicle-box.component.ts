@@ -28,7 +28,7 @@ export class VehicleBoxComponent implements OnInit {
         //   this.buttonText = 'Continue';
         // }
         if (event.url === "/") {
-          this.details = "Enter yor vehicle's";
+          this.details = "Enter your vehicle's";
           this.nextDetails = "year, make and";
         }
         if (event.url === "/select-service") {
@@ -48,7 +48,7 @@ export class VehicleBoxComponent implements OnInit {
           this.nextDetails = "address";
         }
         if (event.url === "/select-date") {
-          this.details = "Enter a service";
+          this.details = "Enter a service date";
           this.nextDetails = null;
         }
         if (event.url === "/search-result") {

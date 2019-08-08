@@ -1,10 +1,12 @@
 .service-select-container {
-  box-shadow: 0px 2px 15px #bec2ce;
+  box-shadow: 0px 0px 10px #bec2ce;
   border-radius: 20px;
   padding: 5%;
   padding-bottom: 2%;
   padding-top: 1%;
   width: 40%;
+  display: grid;
+  grid-template-rows: auto auto;
 }
 .order-header {
   display: flex;

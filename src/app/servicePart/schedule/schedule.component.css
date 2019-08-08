@@ -22,7 +22,7 @@
   padding-right: 10%;
   box-shadow: 0px 0px 3px #999999;
   color: black;
-  display: grid;
+  white-space: nowrap;
 }
 .schedule-selector h2 {
   font-size: 1.5rem;
@@ -46,6 +46,7 @@
   padding-right: 5px;
   font-size: 0.8rem;
   font-family: "ProximaRegular";
-  box-shadow: 0px 0px 4px #999999;
+  /* box-shadow: 0px 0px 4px #999999; */
+  box-shadow: 0px 0px 10px #bec2ce;
   border-radius: 8px;
 }
